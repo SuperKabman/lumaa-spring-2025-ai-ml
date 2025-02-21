@@ -132,11 +132,7 @@ def main():
     movies_df = process_movie_features(movies_df)
     tfidf, tfidf_matrix = create_similarity_matrices(movies_df)
     
-    print("\nRecommendation system ready!")
-    print("----------------------------------")
-    print("Example: 'I love exciting action movies with lots of adventure'")
-    print("----------------------------------")
-    
+
     while True:
         user_input = input("\nWhat kind of movie are you looking for? (type 'quit' to exit): ")
 
