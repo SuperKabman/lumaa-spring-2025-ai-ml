@@ -89,3 +89,5 @@ Build a **content-based recommendation system** that, given a **short text descr
    - Basic implementation of a content-based recommendation approach (vectorization, similarity measure).
 
 **We look forward to seeing your solution!** Good luck!
+
+
